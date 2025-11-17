@@ -26,4 +26,4 @@ If you'd like to propose a change:
 - Open an Issue (preferred) with the domain and organisation details, or
 - Submit a PR directly using the template.
 
-Discussions are available for queries or edge cases.
+[Discussions](https://github.com/orgs/govuk-digital-backbone/discussions/categories/domains-and-identifiers) are available for queries or edge cases.
