@@ -1,642 +1,645 @@
-[
-    {
-        "domain_pattern": "*.gov.uk",
-        "identifiers": {},
-        "notes": "Covers generic government domain space",
-        "organisation_id": null,
-        "organisation_type_id": "public_sector_wildcard",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "*.police.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "public_sector_wildcard",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "acas.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "fb40955a-d2ff-4993-a052-91a7558cbb79",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "awe.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "c866d35e-17da-4219-a585-18b4a05faf52",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "bankofengland.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "b8a83a88-3a0f-4c41-8c68-95fc71a0d477",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "birmingham2022.com",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "british-business-bank.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "1e93b589-7840-4f12-abcd-57e90b083166",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "britishcouncil.org",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "37d2c134-1285-4907-a366-611617cfe44c",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "britishfilmcommission.org",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "britishfilmcommission.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "caa.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "1400bcfb-c0f2-4e1c-b8fb-1135a2b83088",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "cefas.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "fd6cee28-ac4c-4fb5-9f46-54d24a500818",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "college.police.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "police",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "cqc.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "a124d48a-7c10-48c9-9a1a-514f9d59cdbf",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "dawnsturgess.independent-inquiry.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "digitaloffice.scot",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "dsit.gov.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "c352c234-8083-47ec-8a4b-0edd45c31263",
-        "organisation_type_id": "central_gov",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "eastwestrail.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "55af09d1-b130-4d23-a1ac-05c6b2b82797",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "forestryengland.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "dbf69c86-d5f7-4785-8f8e-26d74240d7fb",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "frc.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "58d99415-2d4a-4791-b15c-189c56668acb",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "fss.scot",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "gov.gg",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "devolved",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "gov.je",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "devolved",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "gov.scot",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "devolved",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "gov.wales",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "devolved",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "gyrfacymru.com",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "devolved",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "hblb.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "3cf62435-602b-4dc5-ac32-b01d635d0cc7",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "hient.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "hmcts.net",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "6f757605-ab8f-4b62-84e4-99f79cf085c2",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "hs2.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "b80fab8b-6ed4-426a-bb8d-f4b614437671",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "ico.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "763d15dd-c454-4f5b-876d-838a6cfc2fae",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "icrir.independent-inquiry.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "f9e2f416-1112-4582-bec1-f812e51d434c",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "ima-citizensrights.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "bae12d37-f7e3-4d96-85ac-7f6f10c65174",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "investni.com",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "325d6110-af70-4a59-9eda-c995d3fd6839",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "judiciary.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "kew.org",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "maps.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "ccc9dff8-87b7-4d0f-8d78-b8339063b440",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "marinemanagement.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "8d56bb52-2f79-4b6d-9fc6-6d7dcc4f7586",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "mil.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "military",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "mod.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "d994e55c-48c9-4795-b872-58d8ec98af12",
-        "organisation_type_id": "military",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "nao.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "nationalhighways.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "adb19d22-1374-4470-a202-db6e30a1afa4",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "naturalengland.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "d3ce4ba7-bc75-46b4-89d9-38cb3240376d",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "nestcorporation.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "4d14dda6-55a5-4bfa-9e4b-25dda8207b37",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "nestpensions.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "nhs.net",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "nhs",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "nhs.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "nhs",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "nice.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "1ad98e10-6422-4202-9d39-e341787d527c",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "npl.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "e4283b2f-69d4-4ebd-be59-5de9850c550b",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "nsandi.com",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "590039e7-1976-48fa-b84d-d688d4661269",
-        "organisation_type_id": "nmd",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "nstauthority.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "300e6509-2c77-4ea5-8666-92ce0799cd02",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "nuclearwasteservices.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "87ad1f5a-f535-433c-8dde-eae033c593ec",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "obr.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "1c117305-51f8-497a-9372-9330d1e59497",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "ofcom.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "956ecc87-b889-4c41-ac39-ba6a6ba48e97",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "officeforstudents.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "349da970-6d4b-40ba-9b4c-57c75b17ce29",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "ofgem.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "844d0880-14b1-4de1-bfb6-f233f3d5ae1d",
-        "organisation_type_id": "nmd",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "os.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "b6d83795-a693-4f88-90fb-a5f67cd680a3",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "parliament.scot",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "devolved",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "parliament.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "pensions-ombudsman.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "9db1fb50-bf20-4cf0-a00d-5a95654b7d7e",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "police.je",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "police",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "ppf.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "234e02d3-ec77-4a99-b523-e4f5993d7a38",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "royal.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "scotent.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "senedd.wales",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "slc.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "9a9111aa-1db8-4025-8dd2-e08ec3175e72",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "sportscotland.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "stfc.ac.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "a24bcb07-b88b-4e9c-ab06-98527242b78e",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "supremecourt.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "ed629212-17e1-44cd-b41a-52103cdaaea9",
-        "organisation_type_id": "nmd",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "tfw.wales",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "ukaea.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "bb4afa19-6b2f-4bf7-9725-22a259c90c73",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "ukgi.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "5329e3f4-08e5-4166-9bb2-434312442ce7",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "ukifs.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "55ae6ee0-138e-4031-97fd-616d1174b348",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "uknnl.com",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "78c48d24-7f78-4591-a221-b36c2aa1e151",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "ukri.org",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "d664afa8-ecd3-4e03-b914-d60aed4709c6",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "uksbs.co.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "666e939a-a9f8-4659-8063-a49089603afe",
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "visitbritain.org",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "7f34c9c5-4e1f-4688-9731-3b44ddd3ede2",
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "visitscotland.com",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": null,
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "wfd.org",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": null,
-        "organisation_type_id": "ndpb",
-        "source": "internal"
-    },
-    {
-        "domain_pattern": "wiltonpark.org.uk",
-        "identifiers": {},
-        "notes": null,
-        "organisation_id": "a787a14d-3bdd-44fc-820a-f821efd74f81",
-        "organisation_type_id": "ea",
-        "source": "internal"
-    }
-]
+{
+    "version": "0.0.1",
+    "domains": [
+        {
+            "domain_pattern": "*.gov.uk",
+            "identifiers": {},
+            "notes": "Covers generic government domain space",
+            "organisation_id": null,
+            "organisation_type_id": "public_sector_wildcard",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "*.police.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "public_sector_wildcard",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "acas.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "fb40955a-d2ff-4993-a052-91a7558cbb79",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "awe.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "c866d35e-17da-4219-a585-18b4a05faf52",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "bankofengland.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "b8a83a88-3a0f-4c41-8c68-95fc71a0d477",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "birmingham2022.com",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "british-business-bank.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "1e93b589-7840-4f12-abcd-57e90b083166",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "britishcouncil.org",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "37d2c134-1285-4907-a366-611617cfe44c",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "britishfilmcommission.org",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "britishfilmcommission.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "caa.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "1400bcfb-c0f2-4e1c-b8fb-1135a2b83088",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "cefas.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "fd6cee28-ac4c-4fb5-9f46-54d24a500818",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "college.police.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "police",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "cqc.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "a124d48a-7c10-48c9-9a1a-514f9d59cdbf",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "dawnsturgess.independent-inquiry.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "digitaloffice.scot",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "dsit.gov.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "c352c234-8083-47ec-8a4b-0edd45c31263",
+            "organisation_type_id": "central_gov",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "eastwestrail.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "55af09d1-b130-4d23-a1ac-05c6b2b82797",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "forestryengland.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "dbf69c86-d5f7-4785-8f8e-26d74240d7fb",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "frc.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "58d99415-2d4a-4791-b15c-189c56668acb",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "fss.scot",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "gov.gg",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "devolved",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "gov.je",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "devolved",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "gov.scot",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "devolved",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "gov.wales",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "devolved",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "gyrfacymru.com",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "devolved",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "hblb.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "3cf62435-602b-4dc5-ac32-b01d635d0cc7",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "hient.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "hmcts.net",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "6f757605-ab8f-4b62-84e4-99f79cf085c2",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "hs2.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "b80fab8b-6ed4-426a-bb8d-f4b614437671",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "ico.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "763d15dd-c454-4f5b-876d-838a6cfc2fae",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "icrir.independent-inquiry.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "f9e2f416-1112-4582-bec1-f812e51d434c",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "ima-citizensrights.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "bae12d37-f7e3-4d96-85ac-7f6f10c65174",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "investni.com",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "325d6110-af70-4a59-9eda-c995d3fd6839",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "judiciary.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "kew.org",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "maps.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "ccc9dff8-87b7-4d0f-8d78-b8339063b440",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "marinemanagement.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "8d56bb52-2f79-4b6d-9fc6-6d7dcc4f7586",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "mil.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "military",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "mod.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "d994e55c-48c9-4795-b872-58d8ec98af12",
+            "organisation_type_id": "military",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "nao.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "nationalhighways.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "adb19d22-1374-4470-a202-db6e30a1afa4",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "naturalengland.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "d3ce4ba7-bc75-46b4-89d9-38cb3240376d",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "nestcorporation.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "4d14dda6-55a5-4bfa-9e4b-25dda8207b37",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "nestpensions.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "nhs.net",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "nhs",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "nhs.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "nhs",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "nice.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "1ad98e10-6422-4202-9d39-e341787d527c",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "npl.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "e4283b2f-69d4-4ebd-be59-5de9850c550b",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "nsandi.com",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "590039e7-1976-48fa-b84d-d688d4661269",
+            "organisation_type_id": "nmd",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "nstauthority.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "300e6509-2c77-4ea5-8666-92ce0799cd02",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "nuclearwasteservices.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "87ad1f5a-f535-433c-8dde-eae033c593ec",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "obr.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "1c117305-51f8-497a-9372-9330d1e59497",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "ofcom.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "956ecc87-b889-4c41-ac39-ba6a6ba48e97",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "officeforstudents.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "349da970-6d4b-40ba-9b4c-57c75b17ce29",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "ofgem.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "844d0880-14b1-4de1-bfb6-f233f3d5ae1d",
+            "organisation_type_id": "nmd",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "os.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "b6d83795-a693-4f88-90fb-a5f67cd680a3",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "parliament.scot",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "devolved",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "parliament.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "pensions-ombudsman.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "9db1fb50-bf20-4cf0-a00d-5a95654b7d7e",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "police.je",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "police",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "ppf.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "234e02d3-ec77-4a99-b523-e4f5993d7a38",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "royal.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "scotent.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "senedd.wales",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "slc.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "9a9111aa-1db8-4025-8dd2-e08ec3175e72",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "sportscotland.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "stfc.ac.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "a24bcb07-b88b-4e9c-ab06-98527242b78e",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "supremecourt.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "ed629212-17e1-44cd-b41a-52103cdaaea9",
+            "organisation_type_id": "nmd",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "tfw.wales",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "ukaea.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "bb4afa19-6b2f-4bf7-9725-22a259c90c73",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "ukgi.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "5329e3f4-08e5-4166-9bb2-434312442ce7",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "ukifs.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "55ae6ee0-138e-4031-97fd-616d1174b348",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "uknnl.com",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "78c48d24-7f78-4591-a221-b36c2aa1e151",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "ukri.org",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "d664afa8-ecd3-4e03-b914-d60aed4709c6",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "uksbs.co.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "666e939a-a9f8-4659-8063-a49089603afe",
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "visitbritain.org",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "7f34c9c5-4e1f-4688-9731-3b44ddd3ede2",
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "visitscotland.com",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "wfd.org",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": null,
+            "organisation_type_id": "ndpb",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "wiltonpark.org.uk",
+            "identifiers": {},
+            "notes": null,
+            "organisation_id": "a787a14d-3bdd-44fc-820a-f821efd74f81",
+            "organisation_type_id": "ea",
+            "source": "internal"
+        }
+    ]
+}
