@@ -131,7 +131,7 @@ class UKPSDomains:
         res = None
         maybe_res = None
 
-        for entry in self._data.get("user_domains.json", []):
+        for entry in self._data.get("user_domains.json", {}).get("domains", []):
             pattern = entry.get("domain_pattern", "")
             if pattern:
                 if domain == pattern:
