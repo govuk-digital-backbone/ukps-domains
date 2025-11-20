@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import json
 from collections import OrderedDict
 from pathlib import Path
@@ -19,12 +21,16 @@ def main():
     # Parse JSON
     data = json.loads(original_text)
 
+    domains = data.get("domains", [])
+
     # Sort list and keys
-    data_sorted = sorted(data, key=lambda x: x.get("domain_pattern", ""))
-    data_sorted = [sort_keys(entry) for entry in data_sorted]
+    domains_sorted = sorted(domains, key=lambda x: x.get("domain_pattern", ""))
+    domains_sorted = [sort_keys(entry) for entry in domains_sorted]
+
+    data["domains"] = domains_sorted
 
     # Create new formatted text
-    new_text = json.dumps(data_sorted, indent=4, ensure_ascii=False)
+    new_text = json.dumps(data, indent=4, ensure_ascii=False)
 
     # Add final newline
     new_text += "\n"

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import requests
 import json
 from pathlib import Path
@@ -31,6 +33,15 @@ def fetch_all_organisations():
     return all_results
 
 
+def rekey_results(all_results):
+    res = {}
+    for org in all_results:
+        content_id = org.get("details", {}).get("content_id", None)
+        if content_id:
+            res[content_id] = org
+    return res
+
+
 def main():
     # Directory of this script (e.g. bin/)
     script_dir = Path(__file__).resolve().parent
@@ -45,7 +56,8 @@ def main():
     output_file.parent.mkdir(parents=True, exist_ok=True)
 
     # Fetch and write out
-    results = fetch_all_organisations()
+    raw_results = fetch_all_organisations()
+    results = rekey_results(raw_results)
 
     output_file.write_text(
         json.dumps(results, indent=4),
