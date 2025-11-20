@@ -2,14 +2,19 @@
 
 A public, machine-readable list of UK public sector domains used for user identities and email, published in JSON with supporting schemas.
 
-[data/user_domains.json](data/user_domains.json)
+- [user_domains.json](data/user_domains.json)
+
+> [!CAUTION]
+> This repository is a work in progress and may not contain a complete or accurate list of all UK public sector domains. The format and structure of JSON files are likely not finalised.
 
 ## Purpose
 
 This list focuses on organisational domains - the domains people use for email and identity.  
 Service, product, and campaign subdomains aren't included.
 
-Each record includes the domain, organisation name, organisation type, and relevant identifiers.
+If you need to validate the affiliation of an email address, extract its domain (the part after @). If that domain (case-insensitive) matches an entry in the `user_domains` list, you can treat the address as belonging to a UK public sector organisation. You can then use the record to retrieve metadata for enrichment, profiling, or access control.
+
+> **_NOTE:_** This is for affiliation checks, not individual user verification.
 
 ## Scope
 
