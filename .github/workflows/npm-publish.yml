@@ -1,0 +1,46 @@
+name: Node.js Package
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  id-token: write  # Required for OIDC
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          submodules: 'true'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: |
+          cd libraries/nodejs/
+          npm install
+          npm test
+
+  publish-npm:
+    environment: deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          submodules: 'true'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org/'
+      - name: Update npm
+        run: npm install -g npm@latest
+      - run: |
+          cd libraries/nodejs/
+          npm run sync-version
+          npm run build --if-present
+          npm test
+          npm publish
