@@ -21,7 +21,7 @@ jobs:
 
       - name: Build release distributions
         run: |
-          cp data/*.json libraries/python/
+          cp data/*.json libraries/python/src/
           cd libraries/python/
           python -m pip install build
           python -m build
