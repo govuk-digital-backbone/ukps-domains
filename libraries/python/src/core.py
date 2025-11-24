@@ -155,4 +155,3 @@ class UKPSDomains:
     def organisational_context_for_email(self, email: str = None, with_govuk_data: bool = True) -> dict:
         domain = self._extract_domain_from_email(email)
         return self.organisational_context_for_domain(domain, with_govuk_data=with_govuk_data)
-

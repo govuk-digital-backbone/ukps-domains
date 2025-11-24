@@ -1,11 +1,26 @@
 import setuptools
+import json
+import os
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
+VERSION = None
+_base_dir = os.path.dirname(os.path.abspath(__file__))
+_last_folder = os.path.basename(_base_dir.rstrip("/"))
+if "." in _last_folder and "-" in _last_folder:
+    VERSION = _last_folder.split("-")[-1]
+else:
+    _user_domains_fp = os.path.join(_base_dir, "../../data/user_domains.json")
+    with open(_user_domains_fp, "r", encoding="utf-8") as fh:
+        VERSION = json.load(fh).get("version", None)
+
+if not VERSION:
+    raise ValueError("Version not found")
+
 setuptools.setup(
     name="ukpsdomains",
-    version="0.0.1",
+    version=VERSION,
     author="OllieJC, GOV.UK Digital Backbone",
     author_email="digital-backbone+ukpsdomains@dsit.gov.uk",
     description="Utilities for checking emails and domains in the UKPS Domains data",
