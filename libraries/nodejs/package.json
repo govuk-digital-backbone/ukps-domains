@@ -1,0 +1,47 @@
+{
+  "name": "ukpsdomains",
+  "version": "0.0.2",
+  "description": "Utilities for checking emails and domains in the UKPS Domains data",
+  "keywords": [
+    "domains",
+    "ukps",
+    "government",
+    "public sector",
+    "UK",
+    "United Kingdom"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/govuk-digital-backbone/ukps-domains#readme",
+  "bugs": {
+    "url": "https://github.com/govuk-digital-backbone/ukps-domains/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/govuk-digital-backbone/ukps-domains.git"
+  },
+  "license": "SEE LICENSE IN https://github.com/govuk-digital-backbone/.github/blob/main/LICENCE.md",
+  "author": {
+    "name": "GOV.UK Digital Backbone",
+    "email": "digital-backbone+ukpsdomains@dsit.gov.uk"
+  },
+  "contributors": [
+    {
+      "name": "OllieJC",
+      "url": "https://olliejc.uk"
+    }
+  ],
+  "main": "index.js",
+  "bin": {
+    "ukpsdomains": "bin/ukpsdomains.js"
+  },
+  "files": [
+    "index.js",
+    "bin/"
+  ],
+  "scripts": {
+    "sync-version": "node sync-version.js",
+    "test": "node test.js"
+  }
+}
