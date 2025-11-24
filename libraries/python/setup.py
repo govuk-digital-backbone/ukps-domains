@@ -52,6 +52,7 @@ setuptools.setup(
         "United Kingdom"
     ],
     package_dir={"ukpsdomains": "src"},
+    package_data={"ukpsdomains": ["*.json"]},
     packages=["ukpsdomains"],
     python_requires=">=3.6",
 )
