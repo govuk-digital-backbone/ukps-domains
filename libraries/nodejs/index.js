@@ -2,7 +2,6 @@
 "use strict";
 const { join } = require("path");
 const { readFileSync } = require("fs");
-const { URL } = require("url");
 
 // UKPSDomains class
 class UKPSDomains {
