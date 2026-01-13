@@ -1,0 +1,41 @@
+name: Python Tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'bin/**'
+      - 'requirements-dev.txt'
+      - '.github/workflows/python-test.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'bin/**'
+      - 'requirements-dev.txt'
+      - '.github/workflows/python-test.yml'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: |
+          cd bin
+          python -m pytest test_crawl_localgov.py -v
+
+      - name: Lint with ruff
+        run: |
+          pip install ruff
+          ruff check bin/
