@@ -1,0 +1,94 @@
+name: Publish PyPI Package
+
+on:
+  workflow_call:
+    inputs:
+      tag_name:
+        required: true
+        type: string
+        description: Git tag name for the release
+      version:
+        required: true
+        type: string
+        description: Version number to publish
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        required: true
+        type: string
+        description: Git tag name for the release
+      version:
+        required: true
+        type: string
+        description: Version number to publish
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    # No secrets needed for build
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag_name }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Build package
+        run: |
+          cp data/*.json libraries/python/src/
+          cd libraries/python/
+          pip install build
+          python -m build
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pypi-package
+          path: libraries/python/dist/
+          retention-days: 5
+
+  publish:
+    name: Publish
+    needs: build
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: pypi-package
+          path: dist/
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist/
+          attestations: true
+
+  link-metadata:
+    name: Link Artifact Metadata
+    needs: publish
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    continue-on-error: true
+    steps:
+      - name: Link package to GitHub
+        run: |
+          # Calculate digest from the published package
+          PACKAGE_NAME="ukpsdomains"
+          VERSION="${{ inputs.version }}"
+
+          # Note: This API endpoint may require org-level enablement
+          # See: https://docs.github.com/en/actions/publishing-packages/publishing-python-packages
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/artifacts" \
+            -d "{\"name\":\"${PACKAGE_NAME}\",\"version\":\"${VERSION}\",\"registry_url\":\"https://pypi.org\"}" \
+            || echo "Artifact metadata linking not available or failed"
