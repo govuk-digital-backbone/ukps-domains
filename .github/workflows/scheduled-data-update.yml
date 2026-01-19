@@ -1,0 +1,149 @@
+name: Scheduled Data Update
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Run daily at 6 AM UTC
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  # GOV.UK organisations - fetch job (minimal permissions)
+  fetch-govuk-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      has_changes: ${{ steps.changes.outputs.has_changes }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run fetch_govuk_organisations.py
+        run: python bin/fetch_govuk_organisations.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet data/govuk_organisations.json; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload artifact
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: govuk-organisations-data
+          path: data/govuk_organisations.json
+          retention-days: 1
+
+  # GOV.UK organisations - PR job (write permissions, no code execution)
+  create-govuk-pr:
+    needs: fetch-govuk-data
+    if: needs.fetch-govuk-data.outputs.has_changes == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: govuk-organisations-data
+          path: data/
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update GOV.UK organisations data'
+          title: 'chore: Update GOV.UK organisations'
+          body: |
+            Automated update of GOV.UK organisations data.
+
+            Source: https://www.gov.uk/api/organisations
+          branch: automated/govuk-organisations
+          delete-branch: true
+          base: main
+
+  # localgov.co.uk domains - fetch job (minimal permissions)
+  fetch-localgov-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      has_changes: ${{ steps.changes.outputs.has_changes }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Run crawl_localgov.py
+        run: python bin/crawl_localgov.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet data/user_domains.json; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload artifact
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: localgov-domains-data
+          path: data/user_domains.json
+          retention-days: 1
+
+  # localgov.co.uk domains - PR job (write permissions, no code execution)
+  create-localgov-pr:
+    needs: fetch-localgov-data
+    if: needs.fetch-localgov-data.outputs.has_changes == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: localgov-domains-data
+          path: data/
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update local government domains from localgov.co.uk'
+          title: 'chore: Update localgov.co.uk domains'
+          body: |
+            Automated update of local government domains.
+
+            Source: https://www.localgov.co.uk/Council-directory
+
+            **Review Required**: This data source is less authoritative than GOV.UK.
+            Please review changes carefully before merging.
+          branch: automated/localgov-domains
+          delete-branch: true
+          base: main
