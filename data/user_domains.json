@@ -1,5 +1,5 @@
 {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "domains": [
         {
             "domain_pattern": "*.gov.scot",
@@ -156,7 +156,7 @@
         {
             "domain_pattern": "antrimandnewtownabbey.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Antrim & Newtownabbey",
+            "notes": "Local authority: Antrim &amp; Newtownabbey",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -164,7 +164,7 @@
         {
             "domain_pattern": "ardsandnorthdown.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Ards & North Down Borough Council",
+            "notes": "Local authority: Ards &amp; North Down Borough Council",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -172,7 +172,7 @@
         {
             "domain_pattern": "argyll-bute.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Argyll & Bute",
+            "notes": "Local authority: Argyll &amp; Bute",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -180,7 +180,7 @@
         {
             "domain_pattern": "armaghbanbridgecraigavon.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Armagh City, Banbridge & Craigavon District",
+            "notes": "Local authority: Armagh City, Banbridge &amp; Craigavon District",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -276,7 +276,7 @@
         {
             "domain_pattern": "basingstoke.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Basingstoke & Deane",
+            "notes": "Local authority: Basingstoke &amp; Deane",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -292,7 +292,7 @@
         {
             "domain_pattern": "bathnes.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Bath & North East Somerset",
+            "notes": "Local authority: Bath &amp; North East Somerset",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -460,7 +460,7 @@
         {
             "domain_pattern": "brighton-hove.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Brighton & Hove",
+            "notes": "Local authority: Brighton &amp; Hove",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -668,7 +668,7 @@
         {
             "domain_pattern": "causewaycoastandglens.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Causeway Coast & Glens District Council",
+            "notes": "Local authority: Causeway Coast &amp; Glens District Council",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -740,7 +740,7 @@
         {
             "domain_pattern": "cheshirewestandchester.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Cheshire West & Chester",
+            "notes": "Local authority: Cheshire West &amp; Chester",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -980,7 +980,7 @@
         {
             "domain_pattern": "dumgal.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Dumfries & Galloway",
+            "notes": "Local authority: Dumfries &amp; Galloway",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -1172,7 +1172,7 @@
         {
             "domain_pattern": "epsom-ewell.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Epsom & Ewell",
+            "notes": "Local authority: Epsom &amp; Ewell",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -1394,6 +1394,14 @@
             "source": "internal"
         },
         {
+            "domain_pattern": "greatermanchester-ca.gov.uk",
+            "identifiers": {},
+            "notes": "Local authority: Trafford",
+            "organisation_id": null,
+            "organisation_type_id": "local_authority",
+            "source": "localgov.co.uk"
+        },
+        {
             "domain_pattern": "greenwich.gov.uk",
             "identifiers": {},
             "notes": "Local authority: Greenwich",
@@ -1596,7 +1604,7 @@
         {
             "domain_pattern": "hinckley-bosworth.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Hinckley & Bosworth",
+            "notes": "Local authority: Hinckley &amp; Bosworth",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -1820,7 +1828,7 @@
         {
             "domain_pattern": "lbbd.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Barking & Dagenham",
+            "notes": "Local authority: Barking &amp; Dagenham",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -1828,7 +1836,7 @@
         {
             "domain_pattern": "lbhf.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Hammersmith & Fulham",
+            "notes": "Local authority: Hammersmith &amp; Fulham",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -1908,7 +1916,7 @@
         {
             "domain_pattern": "lisburncastlereagh.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Lisburn City & Castlereagh District",
+            "notes": "Local authority: Lisburn City &amp; Castlereagh District",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -2036,7 +2044,7 @@
         {
             "domain_pattern": "midandeastantrim.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Mid & East Antrim District Council",
+            "notes": "Local authority: Mid &amp; East Antrim District Council",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -2244,7 +2252,7 @@
         {
             "domain_pattern": "newark-sherwooddc.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Newark & Sherwood",
+            "notes": "Local authority: Newark &amp; Sherwood",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -2468,7 +2476,7 @@
         {
             "domain_pattern": "nuneatonandbedworth.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Nuneaton & Bedworth",
+            "notes": "Local authority: Nuneaton &amp; Bedworth",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -2484,7 +2492,7 @@
         {
             "domain_pattern": "oadby-wigston.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Oadby & Wigston",
+            "notes": "Local authority: Oadby &amp; Wigston",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -2612,7 +2620,7 @@
         {
             "domain_pattern": "pkc.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Perth & Kinross",
+            "notes": "Local authority: Perth &amp; Kinross",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -2668,7 +2676,7 @@
         {
             "domain_pattern": "rbkc.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Kensington & Chelsea",
+            "notes": "Local authority: Kensington &amp; Chelsea",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -2676,7 +2684,7 @@
         {
             "domain_pattern": "rbwm.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Windsor & Maidenhead",
+            "notes": "Local authority: Windsor &amp; Maidenhead",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -2700,7 +2708,7 @@
         {
             "domain_pattern": "redcar-cleveland.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Redcar & Cleveland",
+            "notes": "Local authority: Redcar &amp; Cleveland",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -2716,7 +2724,7 @@
         {
             "domain_pattern": "reigate-banstead.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Reigate & Banstead",
+            "notes": "Local authority: Reigate &amp; Banstead",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -3380,7 +3388,7 @@
         {
             "domain_pattern": "telford.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Telford & Wrekin",
+            "notes": "Local authority: Telford &amp; Wrekin",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -3444,7 +3452,7 @@
         {
             "domain_pattern": "tmbc.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: Tonbridge & Malling",
+            "notes": "Local authority: Tonbridge &amp; Malling",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
@@ -3708,7 +3716,7 @@
         {
             "domain_pattern": "west-norfolk.gov.uk",
             "identifiers": {},
-            "notes": "Local authority: King's Lynn & West Norfolk",
+            "notes": "Local authority: King&#39;s Lynn &amp; West Norfolk",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
