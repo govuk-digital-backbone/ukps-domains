@@ -1,0 +1,102 @@
+name: Add Organisation
+description: Request to add a new UK public sector organisation and its domains
+title: "Add: [Organisation Name]"
+labels: ["addition"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to request adding a new UK public sector organisation.
+
+        Before submitting, please check:
+        - The organisation isn't already in [user_domains.json](https://github.com/govuk-digital-backbone/ukps-domains/blob/main/data/user_domains.json)
+        - The organisation meets the [ONS public sector definition](https://www.ons.gov.uk/methodology/classificationsandstandards/economicstatisticsclassifications/introductiontoeconomicstatisticsclassifications)
+
+  - type: input
+    id: organisation_name
+    attributes:
+      label: Organisation Name
+      description: The official name of the organisation
+      placeholder: e.g. Environment Agency
+    validations:
+      required: true
+
+  - type: textarea
+    id: domains
+    attributes:
+      label: Domain(s)
+      description: The email/identity domain(s) to add (one per line)
+      placeholder: |
+        environment-agency.gov.uk
+        ea.gov.uk
+    validations:
+      required: true
+
+  - type: dropdown
+    id: organisation_type
+    attributes:
+      label: Organisation Type
+      description: Select the type that best describes this organisation
+      options:
+        - central_gov
+        - local_authority
+        - nhs
+        - ndpb
+        - police
+        - devolved
+        - military
+        - nmd
+        - ea
+        - Other (specify in notes)
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence of Public Sector Status
+      description: |
+        Provide links or references demonstrating this is a UK public sector organisation.
+        Examples:
+        - GOV.UK organisation page
+        - ONS classification reference
+        - Establishing legislation
+        - Parent/sponsoring department
+      placeholder: |
+        GOV.UK: https://www.gov.uk/government/organisations/...
+        Sponsored by: Department for Environment, Food & Rural Affairs
+    validations:
+      required: true
+
+  - type: textarea
+    id: identifiers
+    attributes:
+      label: Identifiers
+      description: Optional known identifiers for the organisation
+      placeholder: |
+        GOV.UK ID: /government/organisations/...
+        Companies House: ...
+        Charity Commission: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any other relevant context
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      description: Please confirm the following
+      options:
+        - label: I have verified this organisation is not already in the dataset
+          required: true
+        - label: I have provided evidence of public sector status
+          required: true
+        - label: The domain(s) listed are used for organisational email/identity (not service or campaign domains)
+          required: true

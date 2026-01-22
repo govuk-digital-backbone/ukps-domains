@@ -16,6 +16,18 @@ If you need to validate the affiliation of an email address, extract its domain 
 
 > **_NOTE:_** This is for affiliation checks, not individual user verification.
 
+## Definition
+
+This repository follows the [Office for National Statistics (ONS) classification](https://www.ons.gov.uk/methodology/classificationsandstandards/economicstatisticsclassifications/introductiontoeconomicstatisticsclassifications) of the UK public sector, defined as general government units plus public corporations:
+
+- **Central government**: Non-market producers with national or UK-wide geographic remit
+- **Local government**: Non-market producers with local geographic remit (county or group of counties)
+- **Public corporations**: Market producers under public sector control
+
+Control indicators include board appointment rights, voting interest ownership, special shares, and contractual arrangements.
+
+> **_NOTE:_** Organisations on the boundary of this definition may require case-by-case assessment. See [Discussions](https://github.com/orgs/govuk-digital-backbone/discussions/categories/domains-and-identifiers) for edge cases.
+
 ## Scope
 
 Covers domains for:
