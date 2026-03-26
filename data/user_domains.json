@@ -858,6 +858,14 @@
             "source": "localgov.co.uk"
         },
         {
+            "domain_pattern": "cumberland.gov.uk",
+            "identifiers": {},
+            "notes": "Local authority: Cumberland",
+            "organisation_id": null,
+            "organisation_type_id": "local_authority",
+            "source": "internal"
+        },
+        {
             "domain_pattern": "dacorum.gov.uk",
             "identifiers": {},
             "notes": "Local authority: Dacorum",
