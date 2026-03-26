@@ -1818,6 +1818,14 @@
             "source": "localgov.co.uk"
         },
         {
+            "domain_pattern": "lakedistrict.gov.uk",
+            "identifiers": {},
+            "notes": "Local authority: Lake District National Park Authority",
+            "organisation_id": null,
+            "organisation_type_id": "local_authority",
+            "source": "user_contributed"
+        },
+        {
             "domain_pattern": "lambeth.gov.uk",
             "identifiers": {},
             "notes": "Local authority: Lambeth",
