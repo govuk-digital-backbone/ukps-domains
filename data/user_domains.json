@@ -1962,6 +1962,22 @@
             "source": "internal"
         },
         {
+            "domain_pattern": "london-fire.gov.uk",
+            "identifiers": {},
+            "notes": "Fire and Rescue Authority for Greater London (Fire and Rescue Services Act 2004). Operated by the London Fire Commissioner — a corporation sole and GLA functional body established by the Policing and Crime Act 2017. ONS-classified as local government.",
+            "organisation_id": null,
+            "organisation_type_id": "local_authority",
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "london.gov.uk",
+            "identifiers": {},
+            "notes": "Greater London Authority (GLA), established by the Greater London Authority Act 1999. Strategic regional authority for Greater London; parent of the GLA functional bodies (TfL, London Fire Commissioner, MOPAC, OPDC, LLDC). Domain is also used by MOPAC and OPDC, which have no separate web presence. ONS-classified as local government.",
+            "organisation_id": null,
+            "organisation_type_id": "local_authority",
+            "source": "internal"
+        },
+        {
             "domain_pattern": "luton.gov.uk",
             "identifiers": {},
             "notes": "Local authority: Luton",
@@ -2106,20 +2122,20 @@
             "source": "localgov.co.uk"
         },
         {
-            "domain_pattern": "midulstercouncil.org",
-            "identifiers": {},
-            "notes": "Local authority: Mid Ulster",
-            "organisation_id": null,
-            "organisation_type_id": "local_authority",
-            "source": "manual"
-        },
-        {
             "domain_pattern": "midsussex.gov.uk",
             "identifiers": {},
             "notes": "Local authority: Mid Sussex",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
+        },
+        {
+            "domain_pattern": "midulstercouncil.org",
+            "identifiers": {},
+            "notes": "Local authority: Mid Ulster",
+            "organisation_id": null,
+            "organisation_type_id": "local_authority",
+            "source": "manual"
         },
         {
             "domain_pattern": "mil.uk",
@@ -2322,20 +2338,20 @@
             "source": "localgov.co.uk"
         },
         {
-            "domain_pattern": "newrymournedown.org",
-            "identifiers": {},
-            "notes": "Local authority: Newry, Mourne and Down",
-            "organisation_id": null,
-            "organisation_type_id": "local_authority",
-            "source": "manual"
-        },
-        {
             "domain_pattern": "newport.gov.uk",
             "identifiers": {},
             "notes": "Local authority: Newport City",
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
+        },
+        {
+            "domain_pattern": "newrymournedown.org",
+            "identifiers": {},
+            "notes": "Local authority: Newry, Mourne and Down",
+            "organisation_id": null,
+            "organisation_type_id": "local_authority",
+            "source": "manual"
         },
         {
             "domain_pattern": "nhs.net",
@@ -2712,6 +2728,14 @@
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
+        },
+        {
+            "domain_pattern": "queenelizabetholympicpark.co.uk",
+            "identifiers": {},
+            "notes": "London Legacy Development Corporation (LLDC) — Mayoral Development Corporation under the Localism Act 2011, GLA functional body. Manages Queen Elizabeth Olympic Park. ONS-classified as local government.",
+            "organisation_id": null,
+            "organisation_type_id": "local_authority",
+            "source": "internal"
         },
         {
             "domain_pattern": "rbkc.gov.uk",
@@ -3258,19 +3282,19 @@
             "source": "localgov.co.uk"
         },
         {
-            "domain_pattern": "sthelens.gov.uk",
-            "identifiers": {},
-            "notes": "Local authority: St Helens",
-            "organisation_id": null,
-            "organisation_type_id": "local_authority",
-            "source": "internal"
-        },
-        {
             "domain_pattern": "stfc.ac.uk",
             "identifiers": {},
             "notes": null,
             "organisation_id": "a24bcb07-b88b-4e9c-ab06-98527242b78e",
             "organisation_type_id": null,
+            "source": "internal"
+        },
+        {
+            "domain_pattern": "sthelens.gov.uk",
+            "identifiers": {},
+            "notes": "Local authority: St Helens",
+            "organisation_id": null,
+            "organisation_type_id": "local_authority",
             "source": "internal"
         },
         {
@@ -3472,6 +3496,14 @@
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
+        },
+        {
+            "domain_pattern": "tfl.gov.uk",
+            "identifiers": {},
+            "notes": "Transport for London (TfL) — statutory corporation and GLA functional body under the Greater London Authority Act 1999, s.154. ONS-classified as local government.",
+            "organisation_id": null,
+            "organisation_type_id": "local_authority",
+            "source": "internal"
         },
         {
             "domain_pattern": "tfw.wales",
