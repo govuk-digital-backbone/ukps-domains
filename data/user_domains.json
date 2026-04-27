@@ -1578,6 +1578,14 @@
             "source": "localgov.co.uk"
         },
         {
+            "domain_pattern": "hertfordshire.gov.uk",
+            "identifiers": {},
+            "notes": "Local authority: Hertfordshire County Council",
+            "organisation_id": null,
+            "organisation_type_id": "local_authority",
+            "source": "internal"
+        },
+        {
             "domain_pattern": "hertsmere.gov.uk",
             "identifiers": {},
             "notes": "Local authority: Hertsmere",
@@ -2704,6 +2712,14 @@
             "organisation_id": null,
             "organisation_type_id": "local_authority",
             "source": "localgov.co.uk"
+        },
+        {
+            "domain_pattern": "portsmouthcc.gov.uk",
+            "identifiers": {},
+            "notes": "Local authority: Portsmouth City Council",
+            "organisation_id": null,
+            "organisation_type_id": "local_authority",
+            "source": "internal"
         },
         {
             "domain_pattern": "powys.gov.uk",
